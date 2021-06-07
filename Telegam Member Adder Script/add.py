@@ -16,7 +16,7 @@ def print_output(
     user: Union[types.User, str]=None,
     status=None
     ):
-    """Print output in table row format"""
+    """Print outnput in table row format"""
     client_disp = utils.get_display_name(client.get_me()).ljust(20)
     
     if isinstance(channel, str):
